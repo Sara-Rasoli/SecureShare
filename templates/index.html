@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}
+Home - SecureShare
+{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+
+    <h1>SecureShare</h1>
+
+    <h2>Secure Document Sharing Platform</h2>
+
+    <p>
+        A learning-based document-sharing platform that will use
+        encryption, hashing, and digital signatures to protect files.
+    </p>
+
+    {% if session.get("user_id") %}
+
+        <a href="{{ url_for('dashboard') }}" class="button">
+            Go to Dashboard
+        </a>
+
+    {% else %}
+
+        <a href="{{ url_for('register') }}" class="button">
+            Create Account
+        </a>
+
+        <a href="{{ url_for('login') }}" class="button secondary">
+            Login
+        </a>
+
+    {% endif %}
+
+</section>
+
+
+<section class="features">
+
+    <div class="feature-card">
+
+        <h3>Confidentiality</h3>
+
+        <p>
+            Protect documents using encryption.
+        </p>
+
+    </div>
+
+
+    <div class="feature-card">
+
+        <h3>Integrity</h3>
+
+        <p>
+            Detect changes using cryptographic hashing.
+        </p>
+
+    </div>
+
+
+    <div class="feature-card">
+
+        <h3>Authenticity</h3>
+
+        <p>
+            Verify the sender using digital signatures.
+        </p>
+
+    </div>
+
+</section>
+
+{% endblock %}
