@@ -4,4 +4,5 @@ __pycache__/
 database.db
 uploads/
 encrypted_files/
+keys/
 .env
