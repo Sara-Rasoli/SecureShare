@@ -6,13 +6,13 @@ The system uses AES-256-GCM for file encryption and RSA-2048 with RSA-OAEP-SHA25
 
 ## ✨ Key Features
 
-- 🔒 **AES-256-GCM Encryption** — Encrypts files using authenticated symmetric encryption.
-- 🔑 **RSA-2048 Key Management** — Generates RSA key pairs and protects AES encryption keys using RSA-OAEP-SHA256.
-- 🛡️ **Integrity Verification** — Uses SHA-256 hashing to verify file integrity.
-- ✍️ **Digital Signatures** — Implements RSA-PSS-SHA256 for authenticity verification.
-- 👥 **Secure File Sharing** — Supports file sharing between registered users.
-- 🚫 **Access Control and Revocation** — Restricts unauthorized access and supports revoking file access.
-- 📦 **Encrypted File Packages** — Packages encrypted files into `.secure` files for storage and sharing.
+- 🔒 **AES-256-GCM Encryption**: Encrypts files using authenticated symmetric encryption.
+- 🔑 **RSA-2048 Key Management**: Generates RSA key pairs and protects AES encryption keys using RSA-OAEP-SHA256.
+- 🛡️ **Integrity Verification**: Uses SHA-256 hashing to verify file integrity.
+- ✍️ **Digital Signatures**: Implements RSA-PSS-SHA256 for authenticity verification.
+- 👥 **Secure File Sharing**: Supports file sharing between registered users.
+- 🚫 **Access Control and Revocation**: Restricts unauthorized access and supports revoking file access.
+- 📦 **Encrypted File Packages**: Packages encrypted files into `.secure` files for storage and sharing.
 
 ## 🛠️ Tech Stack
 
