@@ -2,7 +2,7 @@
 
 SecureShare is a secure, web-based file-sharing application that combines symmetric and asymmetric cryptography to protect files, verify data integrity, authenticate digital signatures, and manage access between registered users.
 
-The system uses **AES-256-GCM** for file encryption and **RSA-2048 with RSA-OAEP-SHA256** to protect AES encryption keys. It also incorporates SHA-256 hashing and RSA-PSS digital signatures to support file integrity verification and authenticity.
+The system uses AES-256-GCM for file encryption and RSA-2048 with RSA-OAEP-SHA256 to protect AES encryption keys. It also incorporates SHA-256 hashing and RSA-PSS digital signatures to support file integrity verification and authenticity.
 
 ## ✨ Key Features
 
@@ -67,5 +67,3 @@ Computer Science Student | Aspiring Cybersecurity & Software Development Profess
 
 - **Portfolio Interests:** Cybersecurity, Applied Cryptography, Python Development, and Web Application Security
 
-
-*SecureShare explores the practical application of modern cryptographic techniques to build a secure file-sharing experience.*
