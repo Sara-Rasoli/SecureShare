@@ -1,20 +1,71 @@
-🔐 SecureShare: Hybrid Cryptographic File-Sharing System
+# 🔐 SecureShare — Hybrid Cryptographic File-Sharing System
 
-Developed SecureShare, a secure web-based file-sharing system as part of my Cryptography Essential project.
+SecureShare is a secure, web-based file-sharing application that combines symmetric and asymmetric cryptography to protect files, verify data integrity, authenticate digital signatures, and manage access between registered users.
 
-The system combines AES-256-GCM for efficient file encryption with RSA-2048 and RSA-OAEP-SHA256 for secure AES key protection. It also uses SHA-256 for integrity verification and RSA-PSS-SHA256 for digital signatures and authenticity.
+The system uses **AES-256-GCM** for file encryption and **RSA-2048 with RSA-OAEP-SHA256** to protect AES encryption keys. It also incorporates SHA-256 hashing and RSA-PSS digital signatures to support file integrity verification and authenticity.
 
-Key features:
-🔒 AES-256-GCM encrypted file storage
-🔑 RSA-2048 key generation and AES key protection
-🛡️ SHA-256 integrity verification
-✍️ RSA-PSS digital signatures
-👥 Secure file sharing between registered users
-🚫 Unauthorized-access protection and access revocation
-📦 Encrypted .secure file packages
+## ✨ Key Features
 
-Technologies: Python, Flask, SQLite, Cryptography, HTML, CSS, JSON, Git
+- 🔒 **AES-256-GCM Encryption** — Encrypts files using authenticated symmetric encryption.
+- 🔑 **RSA-2048 Key Management** — Generates RSA key pairs and protects AES encryption keys using RSA-OAEP-SHA256.
+- 🛡️ **Integrity Verification** — Uses SHA-256 hashing to verify file integrity.
+- ✍️ **Digital Signatures** — Implements RSA-PSS-SHA256 for authenticity verification.
+- 👥 **Secure File Sharing** — Supports file sharing between registered users.
+- 🚫 **Access Control and Revocation** — Restricts unauthorized access and supports revoking file access.
+- 📦 **Encrypted File Packages** — Packages encrypted files into `.secure` files for storage and sharing.
 
-This project helped me strengthen my understanding of applied cryptography, secure file handling, access control, and web application security.
+## 🛠️ Tech Stack
 
-#CyberSecurity #Cryptography #Python #Flask #InformationSecurity #ComputerScience #SecureFileSharing
+| Category | Technologies |
+|---|---|
+| Programming Language | Python |
+| Web Framework | Flask |
+| Database | SQLite |
+| Cryptography | Python Cryptography Library |
+| Frontend | HTML, CSS |
+| Data Format | JSON |
+| Version Control | Git, GitHub |
+
+## 🔐 Cryptographic Architecture
+
+| Security Purpose | Algorithm |
+|---|---|
+| File Encryption | AES-256-GCM |
+| Encryption Key Protection | RSA-2048 with RSA-OAEP-SHA256 |
+| Integrity Verification | SHA-256 |
+| Digital Signatures | RSA-PSS-SHA256 |
+
+## 🎯 Project Objectives
+
+- Apply hybrid cryptography to secure file storage and sharing.
+- Protect encryption keys using asymmetric cryptography.
+- Support file integrity verification and digital signature validation.
+- Implement user-based access control and file-sharing permissions.
+- Explore practical approaches to web application security.
+
+## 📚 Technical Highlights
+
+- Implementation of symmetric and asymmetric cryptographic techniques.
+- Secure file encryption and encryption-key protection.
+- Cryptographic hashing and digital signature verification.
+- User authentication and authorization.
+- Secure file processing and encrypted package handling.
+- Backend development using Python and Flask.
+
+## 🚀 Future Improvements
+
+- Implement multi-factor authentication.
+- Enhance encryption-key lifecycle management and secure key storage.
+- Introduce comprehensive automated security testing.
+- Improve the user interface and file-sharing experience.
+- Expand security auditing and activity logging.
+
+## 👩‍💻 Author
+
+**Sara Rasoli**
+Computer Science Student | Aspiring Cybersecurity & Software Development Professional
+
+- **Portfolio Interests:** Cybersecurity, Applied Cryptography, Python Development, and Web Application Security
+
+
+*SecureShare explores the practical application of modern cryptographic techniques to build a secure file-sharing experience.*
